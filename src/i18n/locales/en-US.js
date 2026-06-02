@@ -172,7 +172,7 @@ export default {
         configLoadFailed: 'Configuration loading failed, please refresh the page'
     },
     landing: {
-        mainText: SITE_CONFIG.landingText['en-US'] || 'Explore the infinite possibilities of the global network',
+        mainText: SITE_CONFIG.landingText['en-US'] || 'Torches of Freedom',
         scrollText: 'Scroll down to login',
         exploreButton: 'Start Exploring'
     },

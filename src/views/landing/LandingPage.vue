@@ -420,7 +420,7 @@ export default {
 
     &.dark-mode {
 
-      background: rgba(0, 148, 124, 0.6); 
+      background: rgba(148, 94, 0, 0.6); 
 
     }
 
@@ -434,7 +434,7 @@ export default {
 
     height: 500px;
 
-    background: #A747FE;
+    background: #fe7847;
 
     top: 40%;
 
@@ -446,7 +446,7 @@ export default {
 
     &.dark-mode {
 
-      background: rgba(167, 71, 254, 0.5); 
+      background: rgba(254, 95, 71, 0.5); 
 
     }
 
@@ -460,7 +460,7 @@ export default {
 
     height: 450px;
 
-    background: #37DEC9;
+    background: #dea637;
 
     bottom: -10%;
 
@@ -472,7 +472,7 @@ export default {
 
     &.dark-mode {
 
-      background: rgba(55, 222, 201, 0.5); 
+      background: rgba(222, 144, 55, 0.5); 
 
     }
 
@@ -551,6 +551,7 @@ export default {
 
 
 .site-title {
+  font-family: 'Lacquer', cursive;
 
   font-size: 48px;
 
@@ -558,7 +559,7 @@ export default {
 
   margin-bottom: 20px;
 
-  background: linear-gradient(to right, var(--theme-color), #a78bfa);
+  background: linear-gradient(to right, var(--theme-color), var(--theme-color));
 
   -webkit-background-clip: text;
 

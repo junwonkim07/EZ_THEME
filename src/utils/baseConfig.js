@@ -198,23 +198,23 @@ export const CUSTOM_HEADERS_CONFIG = mergeDeep(DEFAULT_CUSTOM_HEADERS_CONFIG, ge
 
 // 网站名称配置
 const DEFAULT_SITE_CONFIG = {
-    siteName: 'EZ THEME',
-    siteDescription: 'EZ UI',
-    copyright: `© ${new Date().getFullYear()} EZ THEME. All Rights Reserved.`,
+    siteName: 'TorchLight',
+    siteDescription: 'The fastest connection servies',
+    copyright: `© ${new Date().getFullYear()} TorchLight. All Rights Reserved.`,
 
     // 是否显示标题中的网站Logo (true=显示, false=隐藏)
     showLogo: true,
 
     // Landing页面多语言标语
     landingText: {
-        'zh-CN': '探索全球网络无限可能',
-        'vi-VN': 'Khám phá khả năng vô hạn của mạng toàn cầu',
-        'en-US': 'Explore Unlimited Possibilities of Global Network',
-        'zh-TW': '探索全球網絡無限可能',
-        'ja-JP': 'グローバルネットワークの無限の可能性',
-        'ko-KR': '글로벌 네트워크의 무한한 가능성을 탐색하세요',
-        'ru-RU': 'Исследуйте безграничные возможности глобальной сети',
-        'fa-IR': 'امکانات نامحدود شبکه جهانی را کاوش کنید'
+        'zh-CN': '自由的火炬',
+        'vi-VN': 'Ngọn đuốc của tự do',
+        'en-US': 'Torches of Freedom',
+        'zh-TW': '自由的火炬',
+        'ja-JP': '自由のトーチ',
+        'ko-KR': '해외 어디서든 가장 빠르고 안정적인 VPN 서비스',
+        'ru-RU': 'Факелы свободы',
+        'fa-IR': 'مشعل‌های آزادی',
     },
 
     // 自定义landing页面路径（相对于public目录）
@@ -226,13 +226,13 @@ export const SITE_CONFIG = mergeDeep(DEFAULT_SITE_CONFIG, getConfig('SITE_CONFIG
 // 默认语言和主题配置
 const DEFAULT_BASE_CONFIG = {
     // 默认语言 ('zh-CN' 或 'en-US') TODO
-    defaultLanguage: 'zh-CN',
+    defaultLanguage: 'ko-KR',
 
     // 默认主题 ('light' 或 'dark') TODO
     defaultTheme: 'dark',
 
     // 主题色 (16进制颜色值) TODO
-    primaryColor: '#00947c',
+    primaryColor: '#B45309',
 
     // 是否启用落地页 (true=启用, false=禁用) TODO
     enableLandingPage: true
@@ -598,13 +598,13 @@ const DEFAULT_BACKGROUND_BALLS_CONFIG = [
     },
     {
         size: '500px',
-        background: '#A747FE',
+        background: '#feaf47',
         position: {top: '40%', right: '-5%'},
         animationDuration: '30s'
     },
     {
         size: '450px',
-        background: '#37DEC9',
+        background: '#de5837',
         position: {bottom: '-10%', left: '20%'},
         animationDuration: '35s'
     }
