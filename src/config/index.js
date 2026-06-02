@@ -66,24 +66,24 @@ export const config  = {
 
     // ====================  网站基础配置  ====================
     SITE_CONFIG: {
-        siteName: 'EZ THEME',
-        siteDescription: 'EZ UI',
+        siteName: 'TorchLight',
+        siteDescription: 'TorchLight VPN - Fast, Secure, and Reliable VPN Service',
         // copyright会自动使用当前年份
-        copyright: `© ${new Date().getFullYear()} EZ THEME. All Rights Reserved.`,
+        copyright: `© ${new Date().getFullYear()} TorchLight. All Rights Reserved.`,
 
         // 是否显示标题中的网站Logo (true=显示, false=隐藏)
         showLogo: true,
 
         // Landing页面多语言标语
         landingText: {
-            'zh-CN': '探索全球网络无限可能',
-            'vi-VN': 'Khám phá khả năng vô hạn của mạng toàn cầu',
-            'en-US': 'Explore Unlimited Possibilities of Global Network',
-            'zh-TW': '探索全球網絡無限可能',
-            'ja-JP': 'グローバルネットワークの無限の可能性',
-            'ko-KR': '글로벌 네트워크의 무한한 가능성을 탐색하세요',
-            'ru-RU': 'Исследуйте безграничные возможности глобальной сети',
-            'fa-IR': 'امکانات نامحدود شبکه جهانی را کاوش کنید'
+            'ko-KR': '해외 어디서든 가장 빠르고 안정적인 VPN 서비스',
+            'zh-CN': '重获自由',
+            'vi-VN': 'Đòi lại tự do',
+            'en-US': 'Reclaim the freedom.',
+            'zh-TW': '重獲自由',
+            'ja-JP': '自由を取り戻す',
+            'ru-RU': 'Вернуть свободу',
+            'fa-IR': 'بازپس گیری آزادی',   
         },
 
         // 自定义landing页面路径（相对于public目录
@@ -95,13 +95,13 @@ export const config  = {
     // 默认语言和主题配置
     DEFAULT_CONFIG: {
         // 默认语言 ('zh-CN' 或 'en-US')
-        defaultLanguage: 'zh-CN',
+        defaultLanguage: 'ko-KR',
 
         // 默认主题 ('light' 或 'dark')
         defaultTheme: 'light',
 
         // 主题色 (16进制颜色值)
-        primaryColor: '#355cc2',
+        primaryColor: '#E8401A',
 
         // 是否启用落地页 (true=启用, false=禁用)
         enableLandingPage: true // 默认启用
