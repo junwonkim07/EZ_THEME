@@ -5,7 +5,7 @@ import { SITE_CONFIG } from '../../../utils/baseConfig';
 export default {
   auth: {
     loginTitle: '로그인',
-    loginSubtitle: '계속하려면 자격 증명을 입력하세요',
+    loginSubtitle: '계속하려면 로그인하세요',
     registerTitle: '계정 생성',
     registerSubtitle: '아래 정보를 입력하여 새 계정을 등록하세요',
     forgotPasswordTitle: '비밀번호 찾기',
@@ -19,7 +19,7 @@ export default {
     createAccount: '계정 생성',
     loginNow: '지금 로그인',
     resetNow: '비밀번호 재설정',
-    alreadyLoggedIn: '이미 로그인하셨습니다. 대시보드로 이동 중입니다',
+    alreadyLoggedIn: '이미 로그인하셨습니다. 로당 중입니다',
     emailRequired: '이메일을 입력하세요',
     emailInvalid: '유효한 이메일 주소를 입력하세요',
     passwordRequired: '비밀번호를 입력하세요',
@@ -106,7 +106,7 @@ export default {
   browserRestricted: {
     title: '브라우저 접근 제한',
     subtitle: '현재 브라우저는 지원되지 않습니다',
-    description: '최적의 브라우징 경험과 보안을 보장하기 위해 이 웹사이트는 현재 사용 중인 브라우저를 지원하지 않습니다.',
+    description: '이 웹사이트는 현재 사용 중인 브라우저를 지원하지 않습니다.',
     recommendText: '아래 추천 브라우저를 사용하여 접속하세요:',
     currentBrowser: '현재 사용 중인 브라우저:',
     currentUrl: '로그인 URL:',
@@ -129,7 +129,7 @@ export default {
     }
   },
   landing: {
-    mainText: SITE_CONFIG.landingText['ko-KR'] || '글로벌 네트워크의 무한한 가능성을 탐험하세요',
+    mainText: SITE_CONFIG.landingText['ko-KR'] || '해외 어디서든 가장 빠르고 안정적인 VPN 서비스',
     scrollText: '아래로 스크롤하여 로그인',
     exploreButton: '탐험 시작'
   },
@@ -147,7 +147,7 @@ export default {
     waitForIcon: '잠시 기다리시면 채팅 아이콘이 나타나면 클릭하세요',
     loadError: '지원 시스템 로드 실패',
     retry: '재시도',
-    offline: '현재 지원이 오프라인입니다',
+    offline: '현재 지원팀이 오프라인입니다',
     leaveMessage: '메시지 남기기',
     startChat: '채팅 시작',
     back: '뒤로'

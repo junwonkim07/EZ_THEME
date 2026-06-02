@@ -173,7 +173,7 @@ export default {
     configLoadFailed: '구성 로드 실패, 페이지를 새로고침하세요'
   },
   landing: {
-    mainText: SITE_CONFIG.landingText['ko-KR'] || '글로벌 네트워크의 무한한 가능성을 탐험하세요',
+    mainText: SITE_CONFIG.landingText['ko-KR'] || '해외 어디서든 가장 빠르고 안정적인 VPN 서비스',
     scrollText: '아래로 스크롤하여 로그인',
     exploreButton: '탐험 시작'
   },
@@ -743,7 +743,7 @@ export default {
       inviteQRCode: '초대 링크 QR 코드',
       orCopyLink: '또는 링크 복사',
       shareTitle: '저희 서비스를 사용해 보세요',
-      shareDescription: '이 서비스를 사용 중인데, 당신도 체험해 보세요'
+      shareDescription: '함 써보실래요?'
     },
     records: {
       title: '커미션 기록',
